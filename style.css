@@ -1,11 +1,11 @@
 body{
-    margin: 0;
+    margin: 20px 0px 0px 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 .display-flex{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -26,10 +26,18 @@ h1{
     border-image-slice: 1;
     padding-left: 15px;
 }
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.h2-style{
+    font-size: 40px;
+    font-weight: 900;
+}
 .button-style{
     text-decoration: none;
     padding: 15px 40px;
-    background-color: rgb(253, 114, 0);
+    background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
     color: white;
     font-weight: 600;
@@ -38,14 +46,13 @@ h1{
     text-align: center;
 }
 .section2-style{
-    width: 80%;
+    width: 85%;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
-    padding: 50px;
+    padding: 30px;
     border-radius: 30px;
     border: 1px solid gray;
-  
 }
 .section2-style img{
     width: 50%;
@@ -56,5 +63,29 @@ h1{
 #section2-div2{
     background-color: #ffeeee;
 }
-#section2-div3{ background-color:#fff4d6;
+#section2-div3{
+    background-color: #fff4d6;
+}
+.section3-img img{
+    width: 70%;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(22, 20, 20);
+    color: white;
+    padding: 20px 0px;
+}
+
+/* All Background Image */
+
+#section2-bg-img{
+    background-image: url(./shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#section3-bg-img{
+    background-image: url(./shapes/shape-10.png);
+    background-repeat: no-repeat;
+    background-size: 150px 350px;
+    background-position: right;
 }
